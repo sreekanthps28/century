@@ -43,6 +43,8 @@
     .gallery-item { overflow:hidden; position:relative; }
     .gallery-item:hover .gallery-img { transform:scale(1.06); }
     .gallery-caption { position:absolute; inset:auto 0 0; padding:30px 22px 18px; color:#fff; font-weight:700; background:linear-gradient(transparent,rgba(19,29,44,.85)); }
+    .manager { background:#fff; }
+    .manager-photo { width:100%; max-width:390px; aspect-ratio:1/1.08; object-fit:cover; border-radius:50% 50% 0 0; border:12px solid #fff; box-shadow:-22px 22px 0 var(--orange); }
     .principal { background:linear-gradient(135deg,#fff6e5,#fff); }
     .principal-photo { width:100%; max-width:390px; aspect-ratio:1/1.08; object-fit:cover; border-radius:50% 50% 0 0; border:12px solid #fff; box-shadow:22px 22px 0 var(--sun); }
     .teacher { background:#fff; text-align:center; height:100%; box-shadow:0 6px 22px rgba(30,30,30,.06); overflow:hidden; }
